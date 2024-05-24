@@ -1,33 +1,22 @@
-.hero {
+.end {
   display: flex;
   flex-direction: column;
-  text-align: center;
   align-items: center;
-  margin-bottom: 2rem;
-  gap: 1rem;
-}
-
-.hero__wrapper {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
   justify-content: center;
-  align-items: center;
+  gap: 1rem;
+  text-align: center;
 }
 
-.hero__title {
+.end__title {
   font-size: var(--size-2xl);
-  font-weight: 900;
-}
-
-.hero__description {
-  padding-top: 1rem;
-  font-size: var(--size-base);
   max-width: 60ch;
-  font-weight: 400;
 }
 
-.btn-1 {
+.end__description {
+  font-size: var(--size-base);
+}
+
+.end__btn-1 {
   margin-top: 1rem;
   display: inline-block;
   background-color: var(--clr-strong-cyan);
@@ -43,7 +32,7 @@
   font-weight: 600;
 }
 
-.btn-2 {
+.end__btn-2 {
   margin-top: 1.4rem;
   display: inline-block;
   background-color: var(--clr-light-blue);
@@ -59,11 +48,8 @@
   font-weight: 600;
 }
 
-.btn-1:hover {
-  transform: translateY(-3px);
-}
-
-.btn-2:hover {
+.end__btn-1,
+.end__btn-2 {
   transform: translateY(-3px);
 }
 
@@ -72,62 +58,28 @@
 
 /* sm */
 @media (min-width: 640px) {
-  .button__wrapper {
+  .end-button__wrapper {
     display: flex;
     flex-direction: row;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     gap: 1.2rem;
   }
 }
 
 /* md */
-@media (min-width: 768px) {
-  .hero__title {
-    font-size: var(--size-3xl);
-  }
-
-  .hero__description {
-    font-size: var(--size-lg);
-  }
-
-  .btn-1,
-  .btn-2 {
-    font-size: var(--size-lg);
-  }
-}
+/* @media (min-width: 768px) {} */
 
 /* lg */
 @media (min-width: 1024px) {
-  .hero__title {
-    font-size: var(--size-4xl);
-  }
-
-  .hero__description {
+  .end__description {
     font-size: var(--size-xl);
-  }
-
-  .btn-1,
-  .btn-2 {
-    font-size: var(--size-xl);
+    max-width: 60ch;
   }
 }
 
 /* xl */
-@media (min-width: 1280px) {
-  .hero__title {
-    font-size: var(--size-5xl);
-  }
-
-  .hero__description {
-    font-size: var(--size-xl);
-  }
-
-  .btn-1,
-  .btn-2 {
-    font-size: var(--size-2xl);
-  }
-}
+/* @media (min-width: 1280px) {} */
 
 /* 2xl */
 /* @media (min-width: 1536px) {} */

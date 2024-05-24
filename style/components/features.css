@@ -63,7 +63,11 @@
   }
 
   .features__description {
-    font-size: var(--size-2xl);
+    font-size: var(--size-xl);
+  }
+
+  .features__description-2 {
+    font-size: var(--size-xl);
   }
 
   .features__divider {
