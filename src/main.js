@@ -11,6 +11,7 @@ import "../style/components/features.css";
 import "../style/components/access.css";
 import "../style/components/logos.css";
 import "../style/components/end.css";
+import "../style/components/footer.css";
 
 // utility
 import "../style/utility.css";

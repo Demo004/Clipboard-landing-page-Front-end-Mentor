@@ -16,8 +16,6 @@
 /* 2xl */
 /* @media (min-width: 1536px) {} */
 
-
-
 .container {
   width: 100%;
   margin-left: auto;
@@ -28,6 +26,21 @@
 
 .section {
   margin-top: 7rem;
+}
+
+/* for header */
+.background-img {
+  background-image: url(/bg-header-mobile.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 18.75rem;
+}
+
+/* for footer */
+.background {
+  background-color: var(--clr-light);
+  width: 100%;
 }
 
 /* typo */
@@ -69,7 +82,6 @@
   .container {
     max-width: 1280px;
   }
-
 }
 
 /* 2xl */

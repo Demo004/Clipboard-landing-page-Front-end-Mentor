@@ -46,7 +46,7 @@ html {
 
 body {
   font-family: "Bai Jamjuree", sans-serif;
-  background-color: var(--clr-light);
+  background-color: var(--clr-light-grey);
 }
 
 img,
@@ -82,13 +82,7 @@ p {
   color: var(--clr-greyish-blue);
 }
 
-.background-img {
-  background-image: url(/bg-header-mobile.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 18.75rem;
-}
+
 
 /* a {} */
 
