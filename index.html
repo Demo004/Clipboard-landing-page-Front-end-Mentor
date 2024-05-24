@@ -1,13 +1,87 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,400;0,600;0,700;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <div id="app"></div>
+    <!-- header -->
+    <header class="header background-img">
+      <div class="header__logo">
+        <img src="/logo.svg" alt="logo" class="header__img" />
+      </div>
+    </header>
+
+    <!-- main -->
+    <main>
+      <!-- hero -->
+      <section class="hero container">
+        <div class="hero__wrapper">
+          <h1 class="hero__title">A history of everything you copy</h1>
+          <p class="hero__description">
+            Clipboard allows you to track and organize everything you copy.
+            Instantly access your clipboard on all your devices.
+          </p>
+        </div>
+
+        <!-- btns-re-useable assets in utility-->
+        <div class="button__wrapper">
+          <button class="btn-1">Download for I0S</button>
+
+          <button class="btn-2">Download for Mac</button>
+        </div>
+      </section>
+
+      <!-- features -->
+      <!-- <section class="features container section">
+        <div class="features__wrap">
+          <h1 class="features__title">Keep track of your snippets</h1>
+          <p class="description">
+            Clipboard instantly stores any item you copy in the cloud, meaning
+            you can access your snippets immediately on all your devices. Our
+            Mac and IOS apps help you organixe everything.
+          </p>
+        </div>
+
+        <img src="/image-computer.png" alt="computer" class="features__img" />
+
+        <div class="features__wrapper">
+          <div class="features__wrapper-1">
+            <h2 class="featres__sub-title">Quick Search</h2>
+            <p class="features__description">
+              Easily search your snipets bt content, category, web address,
+              application, and more.
+            </p>
+          </div>
+
+          <div class="features__wrapper-1">
+            <h2 class="featres__sub-title">ICloud Sync</h2>
+            <p class="features__description">
+              Instantly saves youe syncs snippets acreoss all your devices.
+            </p>
+          </div>
+
+          <div class="features__wrapper-1">
+            <h2 class="featres__sub-title">Complete History</h2>
+            <p class="features__description">
+              Retrieve any snippets from the first momentt you started using the
+              app.
+            </p>
+          </div>
+        </div>
+      </section> -->
+    </main>
+
     <script type="module" src="./src/main.js"></script>
   </body>
 </html>
