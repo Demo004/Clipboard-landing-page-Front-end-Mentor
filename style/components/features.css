@@ -7,7 +7,7 @@
 }
 
 .features__title {
-  font-size: var(--size-xl);
+  font-size: var(--size-2xl);
 }
 
 .features__description {
@@ -16,21 +16,113 @@
   max-width: 60ch;
 }
 
-.features__img {
+.feature__imgs {
   margin-top: 1rem;
+  margin-bottom: 2rem;
+
 }
 
-.features__wrapper{
+.features__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+
+
+.featres__sub-title {
+  font-size: var(--size-xl);
+}
+
+.features__description-2 {
+  padding-top: 0.6rem;
+  font-size: var(--size-base);
+}
+
+/* xs */
+/* @media (min-width: 475px) {} */
+
+/* sm */
+/* @media (min-width: 640px) {} */
+
+/* md */
+/* @media (min-width: 768px) {
+  .features__wrap {
     display: flex;
     flex-direction: column;
-    gap: 2.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .features__title {
+    font-size: var(--size-3xl);
+  }
+
+  .features__description {
+    font-size: var(--size-lg);
+  }
+
+  .features__divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+  }
+
+  .feature__imgs {
+    width: 550px;
+  }
+
+  .features__wrapper-1 {
+    text-align: left;
+    max-width: 60ch;
+  }
+} */
+
+/* lg */
+@media (min-width: 1024px) {
+  .features__wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .features__title {
+    font-size: var(--size-4xl);
+  }
+
+  .features__description {
+    font-size: var(--size-xl);
+  }
+
+  .features__divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7rem;
+  }
+
+  .feature__imgs {
+    width: 600px;
+  }
+
+  .features__wrapper-1 {
+    text-align: left;
+    max-width: 35ch;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .features__wrapper {
+    gap: 1.5em;
+  }
 }
 
-.featres__sub-title{
-  font-size: var(--size-lg);
-}
+/* xl */
+/* @media (min-width: 1280px) {} */
 
-.features__description-2{
-    padding-top: 0.6rem;
-    font-size: var(--size-base);
-}
+/* 2xl */
+/* @media (min-width: 1536px) {} */
